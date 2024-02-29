@@ -4,7 +4,7 @@ var saveFileName = "user://WonCases.txt"
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+
 
 	if FileAccess.file_exists(saveFileName):
 		var galleryFile = ReadLinesFromFile(saveFileName)
