@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3oq6eeyqw2sd"]
+
+[ext_resource type="Script" path="res://control.gd" id="1_8tfv7"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_hdq3p"]
+font_size = 36
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8tfv7")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 1165.0
+offset_bottom = 658.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 411.0
+offset_top = 75.0
+offset_right = 749.0
+offset_bottom = 233.0
+text = "File Should Have Saved"
+label_settings = SubResource("LabelSettings_hdq3p")
